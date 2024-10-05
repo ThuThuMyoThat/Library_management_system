@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/admin.css">
+    <title>Admin Control</title>
+</head>
+<body>
+    
+    <div class="container">
+        <ion-icon name="settings-outline" class="i"></ion-icon>      
+          <h1>Admin Adjustment</h1> 
+        <label for="originalUrl" id="file-upload-button">
+            <span id="file-upload-text">Upload File</span>
+            <input type="file" id="originalUrl" ">
+        </label>
+        
+        
+        <label for="shortenedUrl">Enter Book Name:</label>
+        <input type="text" id="originalUrl" placeholder="https://example.com">
+
+        <label for="shortenedUrl">Enter Author Name:</label>
+        <input type="text" id="originalUrl" placeholder="https://example.com">
+<div class="buttons">
+            <button id="reload-btn">Reload</button>
+            <button id="short-btn">Submit</button>
+            <a href="userList.html">  
+                <button id="user_list">User List</button>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

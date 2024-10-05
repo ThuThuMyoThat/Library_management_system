@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(0, 100%, 50%, 1);
+    background-image:
+        radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
+        radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
+        radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+}
+
+
+.container {
+    display: flex;
+    flex: 1;
+  
+}
+
+.left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 80px;
+    height: 100vh;
+    
+}
+.stars_image{
+    margin-top: 20px;
+}
+.stars_image img{
+    size: 5em;
+    height: 30px;
+    display: inline;
+}
+
+.left img{
+    width: 300px;
+    height:400px;
+    margin-left: 90px;
+  
+}
+.right {
+    width: 60%;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.right h3 ,p{
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.footer button {
+        height: 50px;
+        background: #FF204E;
+        box-shadow: none;
+        border-color: #FF204E;
+        opacity: 1;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+        width: 100px;
+        margin-left: 20px;
+        margin-top: 0;
+}
+.footer buttom,.button-menu{
+    height: 29px;
+    font-size: 14px;
+    font-family: Noto Sans SC;
+    font-weight: 500;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer buttom,.icon{
+        font-family: iconfont;
+        font-size: 18px;
+        color: #F8F8F8;
+        margin-right: 10px;
+    
+}
+.right p{
+    font-family: Noto Sans SC;
+
+}
+.summerize{
+    margin-top: 20px;
+}
+.summerize h3{
+    color: #FF204E;
+}
+
+
+* {
+    color: white; 
+}
+-h2, h3, p, span {
+    color: white; 
+}
+
+/* Example: Add more specific rules if needed */
+.right h2 {
+    color: red; /* Change color for h2 elements within the .right class */
+}
+.edition_button{
+    display: inline;
+    margin-left: 60px;
+}   
+
+.edition h3{
+    display: inline;
+}
+.edition button{
+    background-color: #fff;
+    border: 1px solid #bc2a8d;
+    padding: 5px;
+    position: relative;
+    width: 7.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+    margin-left: 20px;
+}
+.edition button:hover{
+    background-color: #bc2a8d;
+
+}
+.edit-text{
+    position: absolute;
+  top: 0.4em;
+  left: 1.2em;
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+  color: #bc2a8d;
+}
+.edit-text:hover{
+    left: 0.6em;
+  color: #fff
+}
+.edit_icon{
+    position: absolute;
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: #fff
+}
+.edition:hover .edit_icon {
+    opacity: 1;
+}
